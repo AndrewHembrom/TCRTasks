@@ -1,0 +1,8 @@
+prefix=/home/drew/catkin_ws/install
+
+Name: beginner_package
+Description: Description of beginner_package
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

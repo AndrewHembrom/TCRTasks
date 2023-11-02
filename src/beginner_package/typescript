@@ -1,0 +1,413 @@
+Script started on 2023-11-02 22:46:21+05:30 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="68" LINES="24"]
+]0;drew@drew-Nitro-AN515-57: ~/catkin_ws/src/beginner_package[01;32mdrew@drew-Nitro-AN515-57[00m:[01;34m~/catkin_ws/src/beginner_package[00m$ cd scripts/
+]0;drew@drew-Nitro-AN515-57: ~/catkin_ws/src/beginner_package/scripts[01;32mdrew@drew-Nitro-AN515-57[00m:[01;34m~/catkin_ws/src/beginner_package/scripts[00m$ l s
+[0m[01;32mlisten.py[0m  [01;32mtalk.py[0m
+]0;drew@drew-Nitro-AN515-57: ~/catkin_ws/src/beginner_package/scripts[01;32mdrew@drew-Nitro-AN515-57[00m:[01;34m~/catkin_ws/src/beginner_package/scripts[00m$ [K]0;drew@drew-Nitro-AN515-57: ~/catkin_ws/src/beginner_package/scripts[01;32mdrew@drew-Nitro-AN515-57[00m:[01;34m~/catkin_ws/src/beginner_package/scripts[00m$ [K]0;drew@drew-Nitro-AN515-57: ~/catkin_ws/src/beginner_package/scripts[01;32mdrew@drew-Nitro-AN515-57[00m:[01;34m~/catkin_ws/src/beginner_package/scripts[00m$ [K]0;drew@drew-Nitro-AN515-57: ~/catkin_ws/src/beginner_package/scripts[01;32mdrew@drew-Nitro-AN515-57[00m:[01;34m~/catkin_ws/src/beginner_package/scripts[00m$ [K]0;drew@drew-Nitro-AN515-57: ~/catkin_ws/src/beginner_package/scripts[01;32mdrew@drew-Nitro-AN515-57[00m:[01;34m~/catkin_ws/src/beginner_package/scripts[00m$ [K]0;drew@drew-Nitro-AN515-57: ~/catkin_ws/src/beginner_package/scripts[01;32mdrew@drew-Nitro-AN515-57[00m:[01;34m~/catkin_ws/src/beginner_package/scripts[00m$ [K]0;drew@drew-Nitro-AN515-57: ~/catkin_ws/src/beginner_package/scripts[01;32mdrew@drew-Nitro-AN515-57[00m:[01;34m~/catkin_ws/src/beginner_package/scripts[00m$ [K]0;drew@drew-Nitro-AN515-57: ~/catkin_ws/src/beginner_package/scripts[01;32mdrew@drew-Nitro-AN515-57[00m:[01;34m~/catkin_ws/src/beginner_package/scripts[00m$ [K]0;drew@drew-Nitro-AN515-57: ~/catkin_ws/src/beginner_package/scripts[01;32mdrew@drew-Nitro-AN515-57[00m:[01;34m~/catkin_ws/src/beginner_package/scripts[00m$ [K]0;drew@drew-Nitro-AN515-57: ~/catkin_ws/src/beginner_package/scripts[01;32mdrew@drew-Nitro-AN515-57[00m:[01;34m~/catkin_ws/src/beginner_package/scripts[00m$ [K]0;drew@drew-Nitro-AN515-57: ~/catkin_ws/src/beginner_package/scripts[01;32mdrew@drew-Nitro-AN515-57[00m:[01;34m~/catkin_ws/src/beginner_package/scripts[00m$ [K]0;drew@drew-Nitro-AN515-57: ~/catkin_ws/src/beginner_package/scripts[01;32mdrew@drew-Nitro-AN515-57[00m:[01;34m~/catkin_ws/src/beginner_package/scripts[00m$ [K]0;drew@drew-Nitro-AN515-57: ~/catkin_ws/src/beginner_package/scripts[01;32mdrew@drew-Nitro-AN515-57[00m:[01;34m~/catkin_ws/src/beginner_package/scripts[00m$ [K]0;drew@drew-Nitro-AN515-57: ~/catkin_ws/src/beginner_package/scripts[01;32mdrew@drew-Nitro-AN515-57[00m:[01;34m~/catkin_ws/src/beginner_package/scripts[00m$ [K]0;drew@drew-Nitro-AN515-57: ~/catkin_ws/src/beginner_package/scripts[01;32mdrew@drew-Nitro-AN515-57[00m:[01;34m~/catkin_ws/src/beginner_package/scripts[00m$ [K]0;drew@drew-Nitro-AN515-57: ~/catkin_ws/src/beginner_package/scripts[01;32mdrew@drew-Nitro-AN515-57[00m:[01;34m~/catkin_ws/src/beginner_package/scripts[00m$ [K]0;drew@drew-Nitro-AN515-57: ~/catkin_ws/src/beginner_package/scripts[01;32mdrew@drew-Nitro-AN515-57[00m:[01;34m~/catkin_ws/src/beginner_package/scripts[00m$ [K]0;drew@drew-Nitro-AN515-57: ~/catkin_ws/src/beginner_package/scripts[01;32mdrew@drew-Nitro-AN515-57[00m:[01;34m~/catkin_ws/src/beginner_package/scripts[00m$ [K]0;drew@drew-Nitro-AN515-57: ~/catkin_ws/src/beginner_package/scripts[01;32mdrew@drew-Nitro-AN515-57[00m:[01;34m~/catkin_ws/src/beginner_package/scripts[00m$ [K]0;drew@drew-Nitro-AN515-57: ~/catkin_ws/src/beginner_package/scripts[01;32mdrew@drew-Nitro-AN515-57[00m:[01;34m~/catkin_ws/src/beginner_package/scripts[00m$ [K]0;drew@drew-Nitro-AN515-57: ~/catkin_ws/src/beginner_package/scripts[01;32mdrew@drew-Nitro-AN515-57[00m:[01;34m~/catkin_ws/src/beginner_package/scripts[00m$ [K]0;drew@drew-Nitro-AN515-57: ~/catkin_ws/src/beginner_package/scripts[01;32mdrew@drew-Nitro-AN515-57[00m:[01;34m~/catkin_ws/src/beginner_package/scripts[00m$ [K]0;drew@drew-Nitro-AN515-57: ~/catkin_ws/src/beginner_package/scripts[01;32mdrew@drew-Nitro-AN515-57[00m:[01;34m~/catkin_ws/src/beginner_package/scripts[00m$ clear
+[H[2J[3J]0;drew@drew-Nitro-AN515-57: ~/catkin_ws/src/beginner_package/scripts[01;32mdrew@drew-Nitro-AN515-57[00m:[01;34m~/catkin_ws/src/beginner_package/scripts[00m$ cd
+]0;drew@drew-Nitro-AN515-57: ~[01;32mdrew@drew-Nitro-AN515-57[00m:[01;34m~[00m$ gedi[K[K[K[Kcd catkin_ws/
+]0;drew@drew-Nitro-AN515-57: ~/catkin_ws[01;32mdrew@drew-Nitro-AN515-57[00m:[01;34m~/catkin_ws[00m$ cd src/
+]0;drew@drew-Nitro-AN515-57: ~/catkin_ws/src[01;32mdrew@drew-Nitro-AN515-57[00m:[01;34m~/catkin_ws/src[00m$ cd beginner_package/
+]0;drew@drew-Nitro-AN515-57: ~/catkin_ws/src/beginner_package[01;32mdrew@drew-Nitro-AN515-57[00m:[01;34m~/catkin_ws/src/beginner_package[00m$ cd scripts/
+]0;drew@drew-Nitro-AN515-57: ~/catkin_ws/src/beginner_package/scripts[01;32mdrew@drew-Nitro-AN515-57[00m:[01;34m~/catkin_ws/src/beginner_package/scripts[00m$ ls
+[0m[01;32mlisten.py[0m  [01;32mtalk.py[0m
+]0;drew@drew-Nitro-AN515-57: ~/catkin_ws/src/beginner_package/scripts[01;32mdrew@drew-Nitro-AN515-57[00m:[01;34m~/catkin_ws/src/beginner_package/scripts[00m$ gedit talk.py 
+]0;drew@drew-Nitro-AN515-57: ~/catkin_ws/src/beginner_package/scripts[01;32mdrew@drew-Nitro-AN515-57[00m:[01;34m~/catkin_ws/src/beginner_package/scripts[00m$ gedit listen.py 
+]0;drew@drew-Nitro-AN515-57: ~/catkin_ws/src/beginner_package/scripts[01;32mdrew@drew-Nitro-AN515-57[00m:[01;34m~/catkin_ws/src/beginner_package/scripts[00m$ gedit listen.py [2Ptalk[C[C[C[Cls[Kcd scripts/beginner_package/src/[Kcatkin_ws/[Klear[3Plscd scripts/rostopic echo /important_message [A]0;drew@drew-Nitro-AN515-57: ~/catkin_ws/src/beginner_package/scripts[01;32mdrew@drew-Nitro-AN515-57[00m:[01;34m~/catkin_ws/src/beginner_package/scripts[00m$ [17Pcd scripts/
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[Kcleard[K catkin_ws/[6Psrc/beginner_package/[9Pscripts/ls[Kgedit talk.py [2@listen[C[C[C[C[Kged[K[K[Kgedit ../Cm[K<M[K[KMakeLists.txt 
+]0;drew@drew-Nitro-AN515-57: ~/catkin_ws/src/beginner_package/scripts[01;32mdrew@drew-Nitro-AN515-57[00m:[01;34m~/catkin_ws/src/beginner_package/scripts[00m$ catkin build --this
+[35m---------------------------------------------------------[0m[0m
+[36mProfile:[0m                     [33mdefault[0m[0m
+[36mExtending:[0m          [32m[cached][0m[0m [33m/opt/ros/noetic[0m[0m
+[36mWorkspace:[0m                   [33m/home/drew/catkin_ws[0m[0m
+[35m---------------------------------------------------------[0m[0m
+[36mBuild Space:[0m        [32m[exists][0m[0m [33m/home/drew/catkin_ws/build[0m[0m
+[36mDevel Space:[0m        [32m[exists][0m[0m [33m/home/drew/catkin_ws/devel[0m[0m
+[36mInstall Space:[0m      [34m[unused][0m[0m [33m/home/drew/catkin_ws/install[0m[0m
+[36mLog Space:[0m          [32m[exists][0m[0m [33m/home/drew/catkin_ws/logs[0m[0m
+[36mSource Space:[0m       [32m[exists][0m[0m [33m/home/drew/catkin_ws/src[0m[0m
+[36mDESTDIR:[0m            [34m[unused][0m[0m [33mNone[0m[0m
+[35m---------------------------------------------------------[0m[0m
+[36mDevel Space Layout:[0m          [33mlinked[0m[0m
+[36mInstall Space Layout:[0m        [33mNone[0m[0m
+[35m---------------------------------------------------------[0m[0m
+[36mAdditional CMake Args:[0m       [33mNone[0m[0m
+[36mAdditional Make Args:[0m        [33mNone[0m[0m
+[36mAdditional catkin Make Args:[0m [33mNone[0m[0m
+[36mInternal Make Job Server:[0m    [33mTrue[0m[0m
+[36mCache Job Environments:[0m      [33mFalse[0m[0m
+[35m---------------------------------------------------------[0m[0m
+[36mBuildlisted Packages:[0m        [33mNone[0m[0m
+[36mSkiplisted Packages:[0m         [33mNone[0m[0m
+[35m---------------------------------------------------------[0m[0m
+[1m[36mWorkspace configuration appears valid.[0m[0m
+[35m---------------------------------------------------------[0m[0m
+[build] Found 1 packages in 0.0 seconds.                                                      
+[build] Package table is up to date.                                                          
+Starting  [1m[32m>>>[0m [1m[36mbeginner_package               [0m[0m                                                 
+[[35mbuild[0m - [33m0.1[0m] [[1m[32m0[0m/[32m1[0m complete] [[1m[32m1[0m/[32m12[0m jobs] [[1m[30m0[0m queued][0m [[36mbeginner_package[0m:[34mcheck[0m - [33m0.1[0m][0m            [[35mbuild[0m - [33m0.2[0m] [[1m[32m0[0m/[32m1[0m complete] [[1m[32m1[0m/[32m12[0m jobs] [[1m[30m0[0m queued][0m [[36mbeginner_package[0m:[34mcheck[0m - [33m0.2[0m][0m            [[35mbuild[0m - [33m0.3[0m] [[1m[32m0[0m/[32m1[0m complete] [[1m[32m1[0m/[32m12[0m jobs] [[1m[30m0[0m queued][0m [[36mbeginner_package[0m:[34mcheck[0m - [33m0.3[0m][0m            [[35mbuild[0m - [33m0.4[0m] [[1m[32m0[0m/[32m1[0m complete] [[1m[32m1[0m/[32m12[0m jobs] [[1m[30m0[0m queued][0m [[36mbeginner_package[0m:[34mcheck[0m - [33m0.4[0m][0m            [1m[33m______________________________________________________________________________________________[0m[0m
+[1m[33mWarnings[0m  [33m <<[0m [36mbeginner_package[0m:[34mcheck[0m [1m[33m/home/drew/catkin_ws/logs/beginner_package/build.check.007.log[0m[0m
+[0mCMake Deprecation Warning at /usr/src/googletest/CMakeLists.txt:4 (cmake_minimum_required):
+  Compatibility with CMake < 2.8.12 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+[0m
+[0mCMake Deprecation Warning at /usr/src/googletest/googlemock/CMakeLists.txt:45 (cmake_minimum_required):
+  Compatibility with CMake < 2.8.12 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+[0m
+[0mCMake Deprecation Warning at /usr/src/googletest/googletest/CMakeLists.txt:56 (cmake_minimum_required):
+  Compatibility with CMake < 2.8.12 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+[0m
+[1m[30mcd /home/drew/catkin_ws/build/beginner_package; catkin build --get-env beginner_package | catkin env -si  /usr/bin/make cmake_check_build_system; cd -[0m
+[0m
+[33m..............................................................................................[0m[0m
+[[35mbuild[0m - [33m0.5[0m] [[1m[32m0[0m/[32m1[0m complete] [[1m[32m1[0m/[32m12[0m jobs] [[1m[30m0[0m queued][0m [[36mbeginner_package[0m:[34mmake[0m - [33m0.5[0m][0m             [1m[30mFinished[0m  [32m<<<[0m [36mbeginner_package               [0m [ [33m0.5 seconds[0m ][0m                                 
+[build] [3m[1m[32mSummary:[0m [3mAll [1m1[0m [3mpackages succeeded![0m[0m                                                    
+[build]   [3m[1m[30mIgnored:   None.[0m[0m                                                                    
+[build]   [3m[1m[33mWarnings:[0m  [3m[1m1[0m [3mpackages succeeded with warnings.[0m[0m                                      
+[build]   [3m[1m[30mAbandoned: None.[0m[0m                                                                    
+[build]   [3m[1m[30mFailed:    None.[0m[0m                                                                    
+[build] [3m[1mRuntime:[0m [3m0.5 seconds total.[0m[0m                                                           
+]0;drew@drew-Nitro-AN515-57: ~/catkin_ws/src/beginner_package/scripts[01;32mdrew@drew-Nitro-AN515-57[00m:[01;34m~/catkin_ws/src/beginner_package/scripts[00m$ [K]0;drew@drew-Nitro-AN515-57: ~/catkin_ws/src/beginner_package/scripts[01;32mdrew@drew-Nitro-AN515-57[00m:[01;34m~/catkin_ws/src/beginner_package/scripts[00m$ [K]0;drew@drew-Nitro-AN515-57: ~/catkin_ws/src/beginner_package/scripts[01;32mdrew@drew-Nitro-AN515-57[00m:[01;34m~/catkin_ws/src/beginner_package/scripts[00m$ [K]0;drew@drew-Nitro-AN515-57: ~/catkin_ws/src/beginner_package/scripts[01;32mdrew@drew-Nitro-AN515-57[00m:[01;34m~/catkin_ws/src/beginner_package/scripts[00m$ [K]0;drew@drew-Nitro-AN515-57: ~/catkin_ws/src/beginner_package/scripts[01;32mdrew@drew-Nitro-AN515-57[00m:[01;34m~/catkin_ws/src/beginner_package/scripts[00m$ [K]0;drew@drew-Nitro-AN515-57: ~/catkin_ws/src/beginner_package/scripts[01;32mdrew@drew-Nitro-AN515-57[00m:[01;34m~/catkin_ws/src/beginner_package/scripts[00m$ [K]0;drew@drew-Nitro-AN515-57: ~/catkin_ws/src/beginner_package/scripts[01;32mdrew@drew-Nitro-AN515-57[00m:[01;34m~/catkin_ws/src/beginner_package/scripts[00m$ [K]0;drew@drew-Nitro-AN515-57: ~/catkin_ws/src/beginner_package/scripts[01;32mdrew@drew-Nitro-AN515-57[00m:[01;34m~/catkin_ws/src/beginner_package/scripts[00m$ [K]0;drew@drew-Nitro-AN515-57: ~/catkin_ws/src/beginner_package/scripts[01;32mdrew@drew-Nitro-AN515-57[00m:[01;34m~/catkin_ws/src/beginner_package/scripts[00m$ [K]0;drew@drew-Nitro-AN515-57: ~/catkin_ws/src/beginner_package/scripts[01;32mdrew@drew-Nitro-AN515-57[00m:[01;34m~/catkin_ws/src/beginner_package/scripts[00m$ [K]0;drew@drew-Nitro-AN515-57: ~/catkin_ws/src/beginner_package/scripts[01;32mdrew@drew-Nitro-AN515-57[00m:[01;34m~/catkin_ws/src/beginner_package/scripts[00m$ [K]0;drew@drew-Nitro-AN515-57: ~/catkin_ws/src/beginner_package/scripts[01;32mdrew@drew-Nitro-AN515-57[00m:[01;34m~/catkin_ws/src/beginner_package/scripts[00m$ [K]0;drew@drew-Nitro-AN515-57: ~/catkin_ws/src/beginner_package/scripts[01;32mdrew@drew-Nitro-AN515-57[00m:[01;34m~/catkin_ws/src/beginner_package/scripts[00m$ [K]0;drew@drew-Nitro-AN515-57: ~/catkin_ws/src/beginner_package/scripts[01;32mdrew@drew-Nitro-AN515-57[00m:[01;34m~/catkin_ws/src/beginner_package/scripts[00m$ [K]0;drew@drew-Nitro-AN515-57: ~/catkin_ws/src/beginner_package/scripts[01;32mdrew@drew-Nitro-AN515-57[00m:[01;34m~/catkin_ws/src/beginner_package/scripts[00m$ [K]0;drew@drew-Nitro-AN515-57: ~/catkin_ws/src/beginner_package/scripts[01;32mdrew@drew-Nitro-AN515-57[00m:[01;34m~/catkin_ws/src/beginner_package/scripts[00m$ [K]0;drew@drew-Nitro-AN515-57: ~/catkin_ws/src/beginner_package/scripts[01;32mdrew@drew-Nitro-AN515-57[00m:[01;34m~/catkin_ws/src/beginner_package/scripts[00m$ [K]0;drew@drew-Nitro-AN515-57: ~/catkin_ws/src/beginner_package/scripts[01;32mdrew@drew-Nitro-AN515-57[00m:[01;34m~/catkin_ws/src/beginner_package/scripts[00m$ [K]0;drew@drew-Nitro-AN515-57: ~/catkin_ws/src/beginner_package/scripts[01;32mdrew@drew-Nitro-AN515-57[00m:[01;34m~/catkin_ws/src/beginner_package/scripts[00m$ [K]0;drew@drew-Nitro-AN515-57: ~/catkin_ws/src/beginner_package/scripts[01;32mdrew@drew-Nitro-AN515-57[00m:[01;34m~/catkin_ws/src/beginner_package/scripts[00m$ [K]0;drew@drew-Nitro-AN515-57: ~/catkin_ws/src/beginner_package/scripts[01;32mdrew@drew-Nitro-AN515-57[00m:[01;34m~/catkin_ws/src/beginner_package/scripts[00m$ [K]0;drew@drew-Nitro-AN515-57: ~/catkin_ws/src/beginner_package/scripts[01;32mdrew@drew-Nitro-AN515-57[00m:[01;34m~/catkin_ws/src/beginner_package/scripts[00m$ [K]0;drew@drew-Nitro-AN515-57: ~/catkin_ws/src/beginner_package/scripts[01;32mdrew@drew-Nitro-AN515-57[00m:[01;34m~/catkin_ws/src/beginner_package/scripts[00m$ [K]0;drew@drew-Nitro-AN515-57: ~/catkin_ws/src/beginner_package/scripts[01;32mdrew@drew-Nitro-AN515-57[00m:[01;34m~/catkin_ws/src/beginner_package/scripts[00m$ [K]0;drew@drew-Nitro-AN515-57: ~/catkin_ws/src/beginner_package/scripts[01;32mdrew@drew-Nitro-AN515-57[00m:[01;34m~/catkin_ws/src/beginner_package/scripts[00m$ [K]0;drew@drew-Nitro-AN515-57: ~/catkin_ws/src/beginner_package/scripts[01;32mdrew@drew-Nitro-AN515-57[00m:[01;34m~/catkin_ws/src/beginner_package/scripts[00m$ [K]0;drew@drew-Nitro-AN515-57: ~/catkin_ws/src/beginner_package/scripts[01;32mdrew@drew-Nitro-AN515-57[00m:[01;34m~/catkin_ws/src/beginner_package/scripts[00m$ [K]0;drew@drew-Nitro-AN515-57: ~/catkin_ws/src/beginner_package/scripts[01;32mdrew@drew-Nitro-AN515-57[00m:[01;34m~/catkin_ws/src/beginner_package/scripts[00m$ [K]0;drew@drew-Nitro-AN515-57: ~/catkin_ws/src/beginner_package/scripts[01;32mdrew@drew-Nitro-AN515-57[00m:[01;34m~/catkin_ws/src/beginner_package/scripts[00m$ [K]0;drew@drew-Nitro-AN515-57: ~/catkin_ws/src/beginner_package/scripts[01;32mdrew@drew-Nitro-AN515-57[00m:[01;34m~/catkin_ws/src/beginner_package/scripts[00m$ [K]0;drew@drew-Nitro-AN515-57: ~/catkin_ws/src/beginner_package/scripts[01;32mdrew@drew-Nitro-AN515-57[00m:[01;34m~/catkin_ws/src/beginner_package/scripts[00m$ [K]0;drew@drew-Nitro-AN515-57: ~/catkin_ws/src/beginner_package/scripts[01;32mdrew@drew-Nitro-AN515-57[00m:[01;34m~/catkin_ws/src/beginner_package/scripts[00m$ [K]0;drew@drew-Nitro-AN515-57: ~/catkin_ws/src/beginner_package/scripts[01;32mdrew@drew-Nitro-AN515-57[00m:[01;34m~/catkin_ws/src/beginner_package/scripts[00m$ [K]0;drew@drew-Nitro-AN515-57: ~/catkin_ws/src/beginner_package/scripts[01;32mdrew@drew-Nitro-AN515-57[00m:[01;34m~/catkin_ws/src/beginner_package/scripts[00m$ [K]0;drew@drew-Nitro-AN515-57: ~/catkin_ws/src/beginner_package/scripts[01;32mdrew@drew-Nitro-AN515-57[00m:[01;34m~/catkin_ws/src/beginner_package/scripts[00m$ [K]0;drew@drew-Nitro-AN515-57: ~/catkin_ws/src/beginner_package/scripts[01;32mdrew@drew-Nitro-AN515-57[00m:[01;34m~/catkin_ws/src/beginner_package/scripts[00m$ [K]0;drew@drew-Nitro-AN515-57: ~/catkin_ws/src/beginner_package/scripts[01;32mdrew@drew-Nitro-AN515-57[00m:[01;34m~/catkin_ws/src/beginner_package/scripts[00m$ [K]0;drew@drew-Nitro-AN515-57: ~/catkin_ws/src/beginner_package/scripts[01;32mdrew@drew-Nitro-AN515-57[00m:[01;34m~/catkin_ws/src/beginner_package/scripts[00m$ [K]0;drew@drew-Nitro-AN515-57: ~/catkin_ws/src/beginner_package/scripts[01;32mdrew@drew-Nitro-AN515-57[00m:[01;34m~/catkin_ws/src/beginner_package/scripts[00m$ [K]0;drew@drew-Nitro-AN515-57: ~/catkin_ws/src/beginner_package/scripts[01;32mdrew@drew-Nitro-AN515-57[00m:[01;34m~/catkin_ws/src/beginner_package/scripts[00m$ [K]0;drew@drew-Nitro-AN515-57: ~/catkin_ws/src/beginner_package/scripts[01;32mdrew@drew-Nitro-AN515-57[00m:[01;34m~/catkin_ws/src/beginner_package/scripts[00m$ [K]0;drew@drew-Nitro-AN515-57: ~/catkin_ws/src/beginner_package/scripts[01;32mdrew@drew-Nitro-AN515-57[00m:[01;34m~/catkin_ws/src/beginner_package/scripts[00m$ [K]0;drew@drew-Nitro-AN515-57: ~/catkin_ws/src/beginner_package/scripts[01;32mdrew@drew-Nitro-AN515-57[00m:[01;34m~/catkin_ws/src/beginner_package/scripts[00m$ cd ..
+]0;drew@drew-Nitro-AN515-57: ~/catkin_ws/src/beginner_package[01;32mdrew@drew-Nitro-AN515-57[00m:[01;34m~/catkin_ws/src/beginner_package[00m$ source ../../ed[K[Kdevel/devel[K[K[K[K[Ksetup.bash 
+]0;drew@drew-Nitro-AN515-57: ~/catkin_ws/src/beginner_package[01;32mdrew@drew-Nitro-AN515-57[00m:[01;34m~/catkin_ws/src/beginner_package[00m$ rosrun b
+Usage: rosrun [--prefix cmd] [--debug] PACKAGE EXECUTABLE [ARGS]
+  rosrun will locate PACKAGE and try to find
+  an executable named EXECUTABLE in the PACKAGE tree.
+  If it finds it, it will run it with ARGS.
+]0;drew@drew-Nitro-AN515-57: ~/catkin_ws/src/beginner_package[01;32mdrew@drew-Nitro-AN515-57[00m:[01;34m~/catkin_ws/src/beginner_package[00m$ rosa[Krun b
+beginner_package  bond              bondcpp           bondpy            
+]0;drew@drew-Nitro-AN515-57: ~/catkin_ws/src/beginner_package[01;32mdrew@drew-Nitro-AN515-57[00m:[01;34m~/catkin_ws/src/beginner_package[00m$ rosrun brosrun[K[K[K[K[K[Keginner_package 
+listen.py  talk.py    
+]0;drew@drew-Nitro-AN515-57: ~/catkin_ws/src/beginner_package[01;32mdrew@drew-Nitro-AN515-57[00m:[01;34m~/catkin_ws/src/beginner_package[00m$ rosrun beginner_package listen.py [K]0;drew@drew-Nitro-AN515-57: ~/catkin_ws/src/beginner_package[01;32mdrew@drew-Nitro-AN515-57[00m:[01;34m~/catkin_ws/src/beginner_package[00m$ r
+osrun beginner_package listen.py [K[A]0;drew@drew-Nitro-AN515-57: ~/catkin_ws/src/beginner_package[01;32mdrew@drew-Nitro-AN515-57[00m:[01;34m~/catkin_ws/src/beginner_package[00m$ r
+osrun beginner_package listen.py [K[A]0;drew@drew-Nitro-AN515-57: ~/catkin_ws/src/beginner_package[01;32mdrew@drew-Nitro-AN515-57[00m:[01;34m~/catkin_ws/src/beginner_package[00m$ r
+osrun beginner_package listen.py [K[A]0;drew@drew-Nitro-AN515-57: ~/catkin_ws/src/beginner_package[01;32mdrew@drew-Nitro-AN515-57[00m:[01;34m~/catkin_ws/src/beginner_package[00m$ r
+osrun beginner_package listen.py [K[A]0;drew@drew-Nitro-AN515-57: ~/catkin_ws/src/beginner_package[01;32mdrew@drew-Nitro-AN515-57[00m:[01;34m~/catkin_ws/src/beginner_package[00m$ r
+osrun beginner_package listen.py [K[A]0;drew@drew-Nitro-AN515-57: ~/catkin_ws/src/beginner_package[01;32mdrew@drew-Nitro-AN515-57[00m:[01;34m~/catkin_ws/src/beginner_package[00m$ r
+osrun beginner_package listen.py [K[A]0;drew@drew-Nitro-AN515-57: ~/catkin_ws/src/beginner_package[01;32mdrew@drew-Nitro-AN515-57[00m:[01;34m~/catkin_ws/src/beginner_package[00m$ r
+osrun beginner_package listen.py [K[A]0;drew@drew-Nitro-AN515-57: ~/catkin_ws/src/beginner_package[01;32mdrew@drew-Nitro-AN515-57[00m:[01;34m~/catkin_ws/src/beginner_package[00m$ r
+osrun beginner_package listen.py [K[A]0;drew@drew-Nitro-AN515-57: ~/catkin_ws/src/beginner_package[01;32mdrew@drew-Nitro-AN515-57[00m:[01;34m~/catkin_ws/src/beginner_package[00m$ r
+osrun beginner_package listen.py [K[A]0;drew@drew-Nitro-AN515-57: ~/catkin_ws/src/beginner_package[01;32mdrew@drew-Nitro-AN515-57[00m:[01;34m~/catkin_ws/src/beginner_package[00m$ r
+osrun beginner_package listen.py [K[A]0;drew@drew-Nitro-AN515-57: ~/catkin_ws/src/beginner_package[01;32mdrew@drew-Nitro-AN515-57[00m:[01;34m~/catkin_ws/src/beginner_package[00m$ r
+osrun beginner_package listen.py [K[A]0;drew@drew-Nitro-AN515-57: ~/catkin_ws/src/beginner_package[01;32mdrew@drew-Nitro-AN515-57[00m:[01;34m~/catkin_ws/src/beginner_package[00m$ r
+osrun beginner_package listen.py [K[A]0;drew@drew-Nitro-AN515-57: ~/catkin_ws/src/beginner_package[01;32mdrew@drew-Nitro-AN515-57[00m:[01;34m~/catkin_ws/src/beginner_package[00m$ r
+osrun beginner_package listen.py [K[A]0;drew@drew-Nitro-AN515-57: ~/catkin_ws/src/beginner_package[01;32mdrew@drew-Nitro-AN515-57[00m:[01;34m~/catkin_ws/src/beginner_package[00m$ r
+osrun beginner_package listen.py [K[A]0;drew@drew-Nitro-AN515-57: ~/catkin_ws/src/beginner_package[01;32mdrew@drew-Nitro-AN515-57[00m:[01;34m~/catkin_ws/src/beginner_package[00m$ rosrun beginner_package listen.py [K[A]0;drew@drew-Nitro-AN515-57: ~/catkin_ws/src/beginner_package[01;32mdrew@drew-Nitro-AN515-57[00m:[01;34m~/catkin_ws/src/beginner_package[00m$ rosrun beginner_package listen.py [K[A]0;drew@drew-Nitro-AN515-57: ~/catkin_ws/src/beginner_package[01;32mdrew@drew-Nitro-AN515-57[00m:[01;34m~/catkin_ws/src/beginner_package[00m$ rosrun beginner_package listen.py [K[A]0;drew@drew-Nitro-AN515-57: ~/catkin_ws/src/beginner_package[01;32mdrew@drew-Nitro-AN515-57[00m:[01;34m~/catkin_ws/src/beginner_package[00m$ rosrun beginner_package listen.py [K[A]0;drew@drew-Nitro-AN515-57: ~/catkin_ws/src/beginner_package[01;32mdrew@drew-Nitro-AN515-57[00m:[01;34m~/catkin_ws/src/beginner_package[00m$ rosrun beginner_package listen.py [K[A]0;drew@drew-Nitro-AN515-57: ~/catkin_ws/src/beginner_package[01;32mdrew@drew-Nitro-AN515-57[00m:[01;34m~/catkin_ws/src/beginner_package[00m$ rosrun beginner_package listen.py [K[A]0;drew@drew-Nitro-AN515-57: ~/catkin_ws/src/beginner_package[01;32mdrew@drew-Nitro-AN515-57[00m:[01;34m~/catkin_ws/src/beginner_package[00m$ rosrun beginner_package listen.py [K[A]0;drew@drew-Nitro-AN515-57: ~/catkin_ws/src/beginner_package[01;32mdrew@drew-Nitro-AN515-57[00m:[01;34m~/catkin_ws/src/beginner_package[00m$ rosrun beginner_package listen.py [K[A]0;drew@drew-Nitro-AN515-57: ~/catkin_ws/src/beginner_package[01;32mdrew@drew-Nitro-AN515-57[00m:[01;34m~/catkin_ws/src/beginner_package[00m$ rosrun beginner_package listen.py [K[A]0;drew@drew-Nitro-AN515-57: ~/catkin_ws/src/beginner_package[01;32mdrew@drew-Nitro-AN515-57[00m:[01;34m~/catkin_ws/src/beginner_package[00m$ rosrun beginner_package listen.py [K[A]0;drew@drew-Nitro-AN515-57: ~/catkin_ws/src/beginner_package[01;32mdrew@drew-Nitro-AN515-57[00m:[01;34m~/catkin_ws/src/beginner_package[00m$ rosrun beginner_package listen.py [K[A]0;drew@drew-Nitro-AN515-57: ~/catkin_ws/src/beginner_package[01;32mdrew@drew-Nitro-AN515-57[00m:[01;34m~/catkin_ws/src/beginner_package[00m$ rosrun beginner_package listen.py [K[A]0;drew@drew-Nitro-AN515-57: ~/catkin_ws/src/beginner_package[01;32mdrew@drew-Nitro-AN515-57[00m:[01;34m~/catkin_ws/src/beginner_package[00m$ rosrun beginner_package listen.py [K[A]0;drew@drew-Nitro-AN515-57: ~/catkin_ws/src/beginner_package[01;32mdrew@drew-Nitro-AN515-57[00m:[01;34m~/catkin_ws/src/beginner_package[00m$ rosrun beginner_package listen.py [K[A]0;drew@drew-Nitro-AN515-57: ~/catkin_ws/src/beginner_package[01;32mdrew@drew-Nitro-AN515-57[00m:[01;34m~/catkin_ws/src/beginner_package[00m$ rosrun beginner_package listen.py [K[A]0;drew@drew-Nitro-AN515-57: ~/catkin_ws/src/beginner_package[01;32mdrew@drew-Nitro-AN515-57[00m:[01;34m~/catkin_ws/src/beginner_package[00m$ rosrun beginner_package listen.py [K[A]0;drew@drew-Nitro-AN515-57: ~/catkin_ws/src/beginner_package[01;32mdrew@drew-Nitro-AN515-57[00m:[01;34m~/catkin_ws/src/beginner_package[00m$ rosrun beginner_package listen.py [K[A]0;drew@drew-Nitro-AN515-57: ~/catkin_ws/src/beginner_package[01;32mdrew@drew-Nitro-AN515-57[00m:[01;34m~/catkin_ws/src/beginner_package[00m$ rosrun beginner_package listen.py [K[A]0;drew@drew-Nitro-AN515-57: ~/catkin_ws/src/beginner_package[01;32mdrew@drew-Nitro-AN515-57[00m:[01;34m~/catkin_ws/src/beginner_package[00m$ rosrun beginner_package listen.py [K[A]0;drew@drew-Nitro-AN515-57: ~/catkin_ws/src/beginner_package[01;32mdrew@drew-Nitro-AN515-57[00m:[01;34m~/catkin_ws/src/beginner_package[00m$ rosrun beginner_package listen.py [K[A]0;drew@drew-Nitro-AN515-57: ~/catkin_ws/src/beginner_package[01;32mdrew@drew-Nitro-AN515-57[00m:[01;34m~/catkin_ws/src/beginner_package[00m$ rosrun beginner_package listen.py [K[A]0;drew@drew-Nitro-AN515-57: ~/catkin_ws/src/beginner_package[01;32mdrew@drew-Nitro-AN515-57[00m:[01;34m~/catkin_ws/src/beginner_package[00m$ rosrun beginner_package listen.py 
+Traceback (most recent call last):
+  File "/home/drew/catkin_ws/devel/lib/beginner_package/listen.py", line 15, in <module>
+    exec(compile(fh.read(), python_script, 'exec'), context)
+  File "/home/drew/catkin_ws/src/beginner_package/scripts/listen.py", line 3
+    import std_msgs.msg import String
+                        ^
+SyntaxError: invalid syntax
+]0;drew@drew-Nitro-AN515-57: ~/catkin_ws/src/beginner_package[01;32mdrew@drew-Nitro-AN515-57[00m:[01;34m~/catkin_ws/src/beginner_package[00m$ gedit lis[K[K[K[K[K[K[K[K[Kcd scripts/
+]0;drew@drew-Nitro-AN515-57: ~/catkin_ws/src/beginner_package/scripts[01;32mdrew@drew-Nitro-AN515-57[00m:[01;34m~/catkin_ws/src/beginner_package/scripts[00m$ gedit listen.py 
+]0;drew@drew-Nitro-AN515-57: ~/catkin_ws/src/beginner_package/scripts[01;32mdrew@drew-Nitro-AN515-57[00m:[01;34m~/catkin_ws/src/beginner_package/scripts[00m$ gedit listen.py [A]0;drew@drew-Nitro-AN515-57: ~/catkin_ws/src/beginner_package/scripts[01;32mdrew@drew-Nitro-AN515-57[00m:[01;34m~/catkin_ws/src/beginner_package/scripts[00m$ [3Pcd scripts/
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Crosrun beginner_package listen.py 
+[INFO] [1698946115.967939]: Python talker said: count is :0and a half
+[INFO] [1698946116.467925]: Python talker said: count is :1
+[INFO] [1698946116.967987]: Python talker said: count is :1and a half
+[INFO] [1698946117.467943]: Python talker said: count is :2
+[INFO] [1698946117.967687]: Python talker said: count is :2and a half
+[INFO] [1698946118.467789]: Python talker said: count is :3
+[INFO] [1698946118.967955]: Python talker said: count is :3and a half
+[INFO] [1698946119.467979]: Python talker said: count is :4
+[INFO] [1698946119.967391]: Python talker said: count is :4and a half
+[INFO] [1698946120.467356]: Python talker said: count is :5
+[INFO] [1698946120.967326]: Python talker said: count is :5and a half
+[INFO] [1698946121.467281]: Python talker said: count is :6
+[INFO] [1698946121.967340]: Python talker said: count is :6and a half
+[INFO] [1698946122.467387]: Python talker said: count is :7
+[INFO] [1698946122.967401]: Python talker said: count is :7and a half
+[INFO] [1698946123.467357]: Python talker said: count is :8
+[INFO] [1698946123.967390]: Python talker said: count is :8and a half
+[INFO] [1698946124.467354]: Python talker said: count is :9
+[INFO] [1698946124.967310]: Python talker said: count is :9and a half
+[INFO] [1698946125.467369]: Python talker said: count is :10
+[INFO] [1698946125.967389]: Python talker said: count is :10and a half
+[INFO] [1698946126.467403]: Python talker said: count is :11
+[INFO] [1698946126.967698]: Python talker said: count is :11and a half
+[INFO] [1698946127.467301]: Python talker said: count is :12
+[INFO] [1698946127.967386]: Python talker said: count is :12and a half
+[INFO] [1698946128.467330]: Python talker said: count is :13
+[INFO] [1698946128.967902]: Python talker said: count is :13and a half
+[INFO] [1698946129.467407]: Python talker said: count is :14
+[INFO] [1698946129.967379]: Python talker said: count is :14and a half
+[INFO] [1698946130.467762]: Python talker said: count is :15
+[INFO] [1698946130.967877]: Python talker said: count is :15and a half
+^C]0;drew@drew-Nitro-AN515-57: ~/catkin_ws/src/beginner_package/scripts[01;32mdrew@drew-Nitro-AN515-57[00m:[01;34m~/catkin_ws/src/beginner_package/scripts[00m$ gedit talk.py  [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K 
+]0;drew@drew-Nitro-AN515-57: ~/catkin_ws/src/beginner_package/scripts[01;32mdrew@drew-Nitro-AN515-57[00m:[01;34m~/catkin_ws/src/beginner_package/scripts[00m$ catkin build - -tho[Kis
+[35m---------------------------------------------------------[0m[0m
+[36mProfile:[0m                     [33mdefault[0m[0m
+[36mExtending:[0m          [32m[cached][0m[0m [33m/opt/ros/noetic[0m[0m
+[36mWorkspace:[0m                   [33m/home/drew/catkin_ws[0m[0m
+[35m---------------------------------------------------------[0m[0m
+[36mBuild Space:[0m        [32m[exists][0m[0m [33m/home/drew/catkin_ws/build[0m[0m
+[36mDevel Space:[0m        [32m[exists][0m[0m [33m/home/drew/catkin_ws/devel[0m[0m
+[36mInstall Space:[0m      [34m[unused][0m[0m [33m/home/drew/catkin_ws/install[0m[0m
+[36mLog Space:[0m          [32m[exists][0m[0m [33m/home/drew/catkin_ws/logs[0m[0m
+[36mSource Space:[0m       [32m[exists][0m[0m [33m/home/drew/catkin_ws/src[0m[0m
+[36mDESTDIR:[0m            [34m[unused][0m[0m [33mNone[0m[0m
+[35m---------------------------------------------------------[0m[0m
+[36mDevel Space Layout:[0m          [33mlinked[0m[0m
+[36mInstall Space Layout:[0m        [33mNone[0m[0m
+[35m---------------------------------------------------------[0m[0m
+[36mAdditional CMake Args:[0m       [33mNone[0m[0m
+[36mAdditional Make Args:[0m        [33mNone[0m[0m
+[36mAdditional catkin Make Args:[0m [33mNone[0m[0m
+[36mInternal Make Job Server:[0m    [33mTrue[0m[0m
+[36mCache Job Environments:[0m      [33mFalse[0m[0m
+[35m---------------------------------------------------------[0m[0m
+[36mBuildlisted Packages:[0m        [33mNone[0m[0m
+[36mSkiplisted Packages:[0m         [33mNone[0m[0m
+[35m---------------------------------------------------------[0m[0m
+[1m[36mWorkspace configuration appears valid.[0m[0m
+[35m---------------------------------------------------------[0m[0m
+[build] Found 1 packages in 0.0 seconds.                                        
+[build] Package table is up to date.                                            
+Starting  [1m[32m>>>[0m [1m[36mbeginner_package               [0m[0m                                   
+[[35mbuild[0m - [33m0.1[0m] [[1m[32m0[0m/[32m1[0m complete] [[1m[32m1[0m/[32m12[0m jobs] [[1m[30m0[0m queued][0m [[36mbeginner_package[0m:[34mcheck[0m [0m[0m... [[35mbuild[0m - [33m0.2[0m] [[1m[32m0[0m/[32m1[0m complete] [[1m[32m1[0m/[32m12[0m jobs] [[1m[30m0[0m queued][0m [[36mbeginner_package[0m:[34mcheck[0m [0m[0m... [[35mbuild[0m - [33m0.3[0m] [[1m[32m0[0m/[32m1[0m complete] [[1m[32m1[0m/[32m12[0m jobs] [[1m[30m0[0m queued][0m [[36mbeginner_package[0m:[34mcheck[0m [0m[0m... [[35mbuild[0m - [33m0.4[0m] [[1m[32m0[0m/[32m1[0m complete] [[1m[32m1[0m/[32m12[0m jobs] [[1m[30m0[0m queued][0m [[36mbeginner_package[0m:[34mcheck[0m [0m[0m... [1m[33m________________________________________________________________________________[0m[0m
+[1m[33mWarnings[0m  [33m <<[0m [36mbeginner_package[0m:[34mcheck[0m [1m[33m/home/drew/catkin_ws/logs/beginner_package/build.check.008.log[0m[0m
+[0mCMake Deprecation Warning at /usr/src/googletest/CMakeLists.txt:4 (cmake_minimum_required):
+  Compatibility with CMake < 2.8.12 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+[0m
+[0mCMake Deprecation Warning at /usr/src/googletest/googlemock/CMakeLists.txt:45 (cmake_minimum_required):
+  Compatibility with CMake < 2.8.12 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+[0m
+[0mCMake Deprecation Warning at /usr/src/googletest/googletest/CMakeLists.txt:56 (cmake_minimum_required):
+  Compatibility with CMake < 2.8.12 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+[0m
+[1m[30mcd /home/drew/catkin_ws/build/beginner_package; catkin build --get-env beginner_package | catkin env -si  /usr/bin/make cmake_check_build_system; cd -[0m
+[0m
+[33m................................................................................[0m[0m
+[[35mbuild[0m - [33m0.5[0m] [[1m[32m0[0m/[32m1[0m complete] [[1m[32m1[0m/[32m12[0m jobs] [[1m[30m0[0m queued][0m [[36mbeginner_package[0m:[34mmake[0m -[0m[0m... [1m[30mFinished[0m  [32m<<<[0m [36mbeginner_package               [0m [ [33m0.5 seconds[0m ][0m                   
+[build] [3m[1m[32mSummary:[0m [3mAll [1m1[0m [3mpackages succeeded![0m[0m                                      
+[build]   [3m[1m[30mIgnored:   None.[0m[0m                                                      
+[build]   [3m[1m[33mWarnings:[0m  [3m[1m1[0m [3mpackages succeeded with warnings.[0m[0m                        
+[build]   [3m[1m[30mAbandoned: None.[0m[0m                                                      
+[build]   [3m[1m[30mFailed:    None.[0m[0m                                                      
+[build] [3m[1mRuntime:[0m [3m0.5 seconds total.[0m[0m                                             
+]0;drew@drew-Nitro-AN515-57: ~/catkin_ws/src/beginner_package/scripts[01;32mdrew@drew-Nitro-AN515-57[00m:[01;34m~/catkin_ws/src/beginner_package/scripts[00m$ catkin build --this[A]0;drew@drew-Nitro-AN515-57: ~/catkin_ws/src/beginner_package/scripts[01;32mdrew@drew-Nitro-AN515-57[00m:[01;34m~/catkin_ws/src/beginner_package/scripts[00m$ gedit talk.py  [K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Crosrun beginner_package listen.py [A]0;drew@drew-Nitro-AN515-57: ~/catkin_ws/src/beginner_package/scripts[01;32mdrew@drew-Nitro-AN515-57[00m:[01;34m~/catkin_ws/src/beginner_package/scripts[00m$ gedit listen.py [K[A]0;drew@drew-Nitro-AN515-57: ~/catkin_ws/src/beginner_package/scripts[01;32mdrew@drew-Nitro-AN515-57[00m:[01;34m~/catkin_ws/src/beginner_package/scripts[00m$ rosrun beginner_package listen.py 
+^C]0;drew@drew-Nitro-AN515-57: ~/catkin_ws/src/beginner_package/scripts[01;32mdrew@drew-Nitro-AN515-57[00m:[01;34m~/catkin_ws/src/beginner_package/scripts[00m$ gedit talk.[K.py  [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K 
+]0;drew@drew-Nitro-AN515-57: ~/catkin_ws/src/beginner_package/scripts[01;32mdrew@drew-Nitro-AN515-57[00m:[01;34m~/catkin_ws/src/beginner_package/scripts[00m$ gedit talk.py  [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Crosrun beginner_package listen.py 
+^C]0;drew@drew-Nitro-AN515-57: ~/catkin_ws/src/beginner_package/scripts[01;32mdrew@drew-Nitro-AN515-57[00m:[01;34m~/catkin_ws/src/beginner_package/scripts[00m$ gedit talk.py
+]0;drew@drew-Nitro-AN515-57: ~/catkin_ws/src/beginner_package/scripts[01;32mdrew@drew-Nitro-AN515-57[00m:[01;34m~/catkin_ws/src/beginner_package/scripts[00m$ gedit talk.py
+]0;drew@drew-Nitro-AN515-57: ~/catkin_ws/src/beginner_package/scripts[01;32mdrew@drew-Nitro-AN515-57[00m:[01;34m~/catkin_ws/src/beginner_package/scripts[00m$ gedit talk.py
+]0;drew@drew-Nitro-AN515-57: ~/catkin_ws/src/beginner_package/scripts[01;32mdrew@drew-Nitro-AN515-57[00m:[01;34m~/catkin_ws/src/beginner_package/scripts[00m$ gedit talk.py  [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K 
+]0;drew@drew-Nitro-AN515-57: ~/catkin_ws/src/beginner_package/scripts[01;32mdrew@drew-Nitro-AN515-57[00m:[01;34m~/catkin_ws/src/beginner_package/scripts[00m$ gedit talk.py  [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Crosrun beginner_package listen.py [A]0;drew@drew-Nitro-AN515-57: ~/catkin_ws/src/beginner_package/scripts[01;32mdrew@drew-Nitro-AN515-57[00m:[01;34m~/catkin_ws/src/beginner_package/scripts[00m$ gedit talk.py  [K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Crosrun beginner_package listen.py [A]0;drew@drew-Nitro-AN515-57: ~/catkin_ws/src/beginner_package/scripts[01;32mdrew@drew-Nitro-AN515-57[00m:[01;34m~/catkin_ws/src/beginner_package/scripts[00m$ catkin build --this[K[A]0;drew@drew-Nitro-AN515-57: ~/catkin_ws/src/beginner_package/scripts[01;32mdrew@drew-Nitro-AN515-57[00m:[01;34m~/catkin_ws/src/beginner_package/scripts[00m$ rosrun beginner_package listen.py 
+^C]0;drew@drew-Nitro-AN515-57: ~/catkin_ws/src/beginner_package/scripts[01;32mdrew@drew-Nitro-AN515-57[00m:[01;34m~/catkin_ws/src/beginner_package/scripts[00m$ gedit talk.py
+^[[A^[[A        ]0;drew@drew-Nitro-AN515-57: ~/catkin_ws/src/beginner_package/scripts[01;32mdrew@drew-Nitro-AN515-57[00m:[01;34m~/catkin_ws/src/beginner_package/scripts[00m$ gedit talk.pyrosrun beginner_package listen.py 
+^C^[[A]0;drew@drew-Nitro-AN515-57: ~/catkin_ws/src/beginner_package/scripts[01;32mdrew@drew-Nitro-AN515-57[00m:[01;34m~/catkin_ws/src/beginner_package/scripts[00m$ rosrun beginner_package listen.py [A]0;drew@drew-Nitro-AN515-57: ~/catkin_ws/src/beginner_package/scripts[01;32mdrew@drew-Nitro-AN515-57[00m:[01;34m~/catkin_ws/src/beginner_package/scripts[00m$ [1Pgedit talk.py
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+]0;drew@drew-Nitro-AN515-57: ~/catkin_ws/src/beginner_package/scripts[01;32mdrew@drew-Nitro-AN515-57[00m:[01;34m~/catkin_ws/src/beginner_package/scripts[00m$ gedit talk.pyrosrun beginner_package listen.py 
+[INFO] [1698947284.716002]: Python talker said: HEllo World
+[INFO] [1698947284.718490]: Python talker said: HEllo World
+[INFO] [1698947284.940018]: Python talker said: HEllo World
+[INFO] [1698947285.503318]: Python talker said: HEllo World
+[INFO] [1698947285.940292]: Python talker said: HEllo World
+[INFO] [1698947286.440357]: Python talker said: HEllo World
+[INFO] [1698947286.939846]: Python talker said: HEllo World
+[INFO] [1698947287.453350]: Python talker said: HEllo World
+[INFO] [1698947287.940378]: Python talker said: HEllo World
+[INFO] [1698947288.440380]: Python talker said: HEllo World
+[INFO] [1698947288.951194]: Python talker said: HEllo World
+[INFO] [1698947289.439733]: Python talker said: HEllo World
+[INFO] [1698947289.940295]: Python talker said: HEllo World
+[INFO] [1698947290.454050]: Python talker said: HEllo World
+^C]0;drew@drew-Nitro-AN515-57: ~/catkin_ws/src/beginner_package/scripts[01;32mdrew@drew-Nitro-AN515-57[00m:[01;34m~/catkin_ws/src/beginner_package/scripts[00m$ rosrun beginner_package listen.py [A]0;drew@drew-Nitro-AN515-57: ~/catkin_ws/src/beginner_package/scripts[01;32mdrew@drew-Nitro-AN515-57[00m:[01;34m~/catkin_ws/src/beginner_package/scripts[00m$ [1Pgedit talk.py
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+]0;drew@drew-Nitro-AN515-57: ~/catkin_ws/src/beginner_package/scripts[01;32mdrew@drew-Nitro-AN515-57[00m:[01;34m~/catkin_ws/src/beginner_package/scripts[00m$ gedit talk.pyrosrun beginner_package listen.py 
+^C]0;drew@drew-Nitro-AN515-57: ~/catkin_ws/src/beginner_package/scripts[01;32mdrew@drew-Nitro-AN515-57[00m:[01;34m~/catkin_ws/src/beginner_package/scripts[00m$ gedit talk.py  [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K 
+]0;drew@drew-Nitro-AN515-57: ~/catkin_ws/src/beginner_package/scripts[01;32mdrew@drew-Nitro-AN515-57[00m:[01;34m~/catkin_ws/src/beginner_package/scripts[00m$ gedit talk.py  [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K 
+]0;drew@drew-Nitro-AN515-57: ~/catkin_ws/src/beginner_package/scripts[01;32mdrew@drew-Nitro-AN515-57[00m:[01;34m~/catkin_ws/src/beginner_package/scripts[00m$ gedit talk.py  [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K 
+]0;drew@drew-Nitro-AN515-57: ~/catkin_ws/src/beginner_package/scripts[01;32mdrew@drew-Nitro-AN515-57[00m:[01;34m~/catkin_ws/src/beginner_package/scripts[00m$ gedit talk.py  [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[Krosrun beginner_package listen.py [A]0;drew@drew-Nitro-AN515-57: ~/catkin_ws/src/beginner_package/scripts[01;32mdrew@drew-Nitro-AN515-57[00m:[01;34m~/catkin_ws/src/beginner_package/scripts[00m$ [1Pgedit talk.py
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Crosrun beginner_package listen.py 
+[INFO] [1698947576.236095]: Python talker said: Coordinates (x, y):315365
+[INFO] [1698947576.736094]: Python talker said: Coordinates (x, y):427254
+[INFO] [1698947577.246654]: Python talker said: Coordinates (x, y):326358
+[INFO] [1698947577.736055]: Python talker said: Coordinates (x, y):326358
+[INFO] [1698947578.236028]: Python talker said: Coordinates (x, y):326358
+[INFO] [1698947578.736087]: Python talker said: Coordinates (x, y):285190
+[INFO] [1698947579.236114]: Python talker said: Coordinates (x, y):285190
+[INFO] [1698947579.736124]: Python talker said: Coordinates (x, y):285190
+[INFO] [1698947580.247403]: Python talker said: Coordinates (x, y):347350
+[INFO] [1698947580.736017]: Python talker said: Coordinates (x, y):347350
+[INFO] [1698947581.236089]: Python talker said: Coordinates (x, y):536443
+[INFO] [1698947581.736141]: Python talker said: Coordinates (x, y):98248
+[INFO] [1698947582.235425]: Python talker said: Coordinates (x, y):98248
+[INFO] [1698947582.744469]: Python talker said: Coordinates (x, y):398327
+[INFO] [1698947583.235986]: Python talker said: Coordinates (x, y):272472
+[INFO] [1698947583.736173]: Python talker said: Coordinates (x, y):523371
+[INFO] [1698947584.236040]: Python talker said: Coordinates (x, y):523371
+[INFO] [1698947584.735990]: Python talker said: Coordinates (x, y):80269
+[INFO] [1698947585.249237]: Python talker said: Coordinates (x, y):344356
+[INFO] [1698947585.736046]: Python talker said: Coordinates (x, y):490244
+[INFO] [1698947586.236023]: Python talker said: Coordinates (x, y):490244
+[INFO] [1698947586.746834]: Python talker said: Coordinates (x, y):344363
+^C]0;drew@drew-Nitro-AN515-57: ~/catkin_ws/src/beginner_package/scripts[01;32mdrew@drew-Nitro-AN515-57[00m:[01;34m~/catkin_ws/src/beginner_package/scripts[00m$ rosrun beginner_package listen.py [A]0;drew@drew-Nitro-AN515-57: ~/catkin_ws/src/beginner_package/scripts[01;32mdrew@drew-Nitro-AN515-57[00m:[01;34m~/catkin_ws/src/beginner_package/scripts[00m$ [K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Crosrun beginner_package listen.py [A]0;drew@drew-Nitro-AN515-57: ~/catkin_ws/src/beginner_package/scripts[01;32mdrew@drew-Nitro-AN515-57[00m:[01;34m~/catkin_ws/src/beginner_package/scripts[00m$ [1Pgedit talk.py
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+]0;drew@drew-Nitro-AN515-57: ~/catkin_ws/src/beginner_package/scripts[01;32mdrew@drew-Nitro-AN515-57[00m:[01;34m~/catkin_ws/src/beginner_package/scripts[00m$ gedit talk.pyrosrun beginner_package listen.py 
+^C]0;drew@drew-Nitro-AN515-57: ~/catkin_ws/src/beginner_package/scripts[01;32mdrew@drew-Nitro-AN515-57[00m:[01;34m~/catkin_ws/src/beginner_package/scripts[00m$ rosrun beginner_package listen.py [A]0;drew@drew-Nitro-AN515-57: ~/catkin_ws/src/beginner_package/scripts[01;32mdrew@drew-Nitro-AN515-57[00m:[01;34m~/catkin_ws/src/beginner_package/scripts[00m$ [1Pgedit talk.py
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+]0;drew@drew-Nitro-AN515-57: ~/catkin_ws/src/beginner_package/scripts[01;32mdrew@drew-Nitro-AN515-57[00m:[01;34m~/catkin_ws/src/beginner_package/scripts[00m$ gedit talk.pyrosrun beginner_package listen.py 
+[INFO] [1698947715.581161]: Python talker said: Coordinates (x, y):369 327
+[INFO] [1698947716.081046]: Python talker said: Distance to camera:0meters
+[INFO] [1698947716.581192]: Python talker said: Coordinates (x, y):369 327
+[INFO] [1698947717.081046]: Python talker said: Distance to camera:0meters
+[INFO] [1698947717.644795]: Python talker said: Coordinates (x, y):380 316
+[INFO] [1698947718.081176]: Python talker said: Distance to camera:0meters
+[INFO] [1698947718.581426]: Python talker said: Coordinates (x, y):380 316
+[INFO] [1698947719.081246]: Python talker said: Distance to camera:0meters
+[INFO] [1698947719.581487]: Python talker said: Coordinates (x, y):538 323
+[INFO] [1698947720.081242]: Python talker said: Distance to camera:0meters
+[INFO] [1698947720.581462]: Python talker said: Coordinates (x, y):538 323
+[INFO] [1698947721.081236]: Python talker said: Distance to camera:0meters
+[INFO] [1698947721.581467]: Python talker said: Coordinates (x, y):313 181
+[INFO] [1698947722.081277]: Python talker said: Distance to camera:0meters
+[INFO] [1698947722.597472]: Python talker said: Coordinates (x, y):376 321
+[INFO] [1698947723.081193]: Python talker said: Distance to camera:0meters
+[INFO] [1698947723.581412]: Python talker said: Coordinates (x, y):460 245
+[INFO] [1698947724.081224]: Python talker said: Distance to camera:0meters
+[INFO] [1698947724.581486]: Python talker said: Coordinates (x, y):535 317
+[INFO] [1698947725.081269]: Python talker said: Distance to camera:0meters
+[INFO] [1698947725.581493]: Python talker said: Coordinates (x, y):328 166
+[INFO] [1698947726.081135]: Python talker said: Distance to camera:0meters
+[INFO] [1698947726.581422]: Python talker said: Coordinates (x, y):283 453
+[INFO] [1698947727.081298]: Python talker said: Distance to camera:0meters
+[INFO] [1698947727.592260]: Python talker said: Coordinates (x, y):382 313
+[INFO] [1698947728.081283]: Python talker said: Distance to camera:0meters
+[INFO] [1698947728.581356]: Python talker said: Coordinates (x, y):531 389
+[INFO] [1698947729.081314]: Python talker said: Distance to camera:0meters
+[INFO] [1698947729.581438]: Python talker said: Coordinates (x, y):531 389
+[INFO] [1698947730.081292]: Python talker said: Distance to camera:0meters
+[INFO] [1698947730.581208]: Python talker said: Coordinates (x, y):531 389
+[INFO] [1698947731.081207]: Python talker said: Distance to camera:0meters
+[INFO] [1698947731.581483]: Python talker said: Coordinates (x, y):531 389
+[INFO] [1698947732.081113]: Python talker said: Distance to camera:0meters
+[INFO] [1698947732.591137]: Python talker said: Coordinates (x, y):377 317
+[INFO] [1698947733.081121]: Python talker said: Distance to camera:0meters
+[INFO] [1698947733.581538]: Python talker said: Coordinates (x, y):377 317
+[INFO] [1698947734.081363]: Python talker said: Distance to camera:0meters
+[INFO] [1698947734.581497]: Python talker said: Coordinates (x, y):377 317
+[INFO] [1698947735.081181]: Python talker said: Distance to camera:0meters
+[INFO] [1698947735.581340]: Python talker said: Coordinates (x, y):529 257
+[INFO] [1698947736.081140]: Python talker said: Distance to camera:0meters
+[INFO] [1698947736.580711]: Python talker said: Coordinates (x, y):529 257
+[INFO] [1698947737.081070]: Python talker said: Distance to camera:0meters
+[INFO] [1698947737.592151]: Python talker said: Coordinates (x, y):361 323
+[INFO] [1698947738.081095]: Python talker said: Distance to camera:0meters
+[INFO] [1698947738.581168]: Python talker said: Coordinates (x, y):361 323
+[INFO] [1698947739.080928]: Python talker said: Distance to camera:0meters
+[INFO] [1698947739.581322]: Python talker said: Coordinates (x, y):428 206
+[INFO] [1698947740.081142]: Python talker said: Distance to camera:0meters
+[INFO] [1698947740.581180]: Python talker said: Coordinates (x, y):428 206
+[INFO] [1698947741.081087]: Python talker said: Distance to camera:0meters
+[INFO] [1698947741.581238]: Python talker said: Coordinates (x, y):428 206
+[INFO] [1698947742.081055]: Python talker said: Distance to camera:0meters
+[INFO] [1698947742.581214]: Python talker said: Coordinates (x, y):428 206
+[INFO] [1698947743.080628]: Python talker said: Distance to camera:0meters
+[INFO] [1698947743.580635]: Python talker said: Coordinates (x, y):428 206
+[INFO] [1698947744.081124]: Python talker said: Distance to camera:0meters
+[INFO] [1698947744.595917]: Python talker said: Coordinates (x, y):248 253
+[INFO] [1698947745.081099]: Python talker said: Distance to camera:0meters
+[INFO] [1698947745.581326]: Python talker said: Coordinates (x, y):154 407
+[INFO] [1698947746.081149]: Python talker said: Distance to camera:0meters
+[INFO] [1698947746.581320]: Python talker said: Coordinates (x, y):280 356
+[INFO] [1698947747.080602]: Python talker said: Distance to camera:0meters
+[INFO] [1698947747.580638]: Python talker said: Coordinates (x, y):280 356
+[INFO] [1698947748.080538]: Python talker said: Distance to camera:0meters
+[INFO] [1698947748.581240]: Python talker said: Coordinates (x, y):280 356
+[INFO] [1698947749.081262]: Python talker said: Distance to camera:0meters
+[INFO] [1698947749.581269]: Python talker said: Coordinates (x, y):280 356
+[INFO] [1698947750.081174]: Python talker said: Distance to camera:0meters
+[INFO] [1698947750.581398]: Python talker said: Coordinates (x, y):280 356
+[INFO] [1698947751.081058]: Python talker said: Distance to camera:0meters
+[INFO] [1698947751.581310]: Python talker said: Coordinates (x, y):118 191
+[INFO] [1698947752.081167]: Python talker said: Distance to camera:0meters
+[INFO] [1698947752.581332]: Python talker said: Coordinates (x, y):118 191
+[INFO] [1698947753.081071]: Python talker said: Distance to camera:0meters
+[INFO] [1698947753.581285]: Python talker said: Coordinates (x, y):118 191
+[INFO] [1698947754.081102]: Python talker said: Distance to camera:0meters
+[INFO] [1698947754.581382]: Python talker said: Coordinates (x, y):118 191
+[INFO] [1698947755.081159]: Python talker said: Distance to camera:0meters
+[INFO] [1698947756.146341]: Python talker said: Coordinates (x, y):351 313
+[INFO] [1698947756.148154]: Python talker said: Distance to camera:0meters
+[INFO] [1698947756.581247]: Python talker said: Coordinates (x, y):351 313
+[INFO] [1698947757.081099]: Python talker said: Distance to camera:0meters
+[INFO] [1698947757.581357]: Python talker said: Coordinates (x, y):351 313
+[INFO] [1698947758.081149]: Python talker said: Distance to camera:0meters
+[INFO] [1698947758.581261]: Python talker said: Coordinates (x, y):351 313
+[INFO] [1698947759.081259]: Python talker said: Distance to camera:0meters
+[INFO] [1698947759.581316]: Python talker said: Coordinates (x, y):351 313
+[INFO] [1698947760.081130]: Python talker said: Distance to camera:0meters
+[INFO] [1698947760.581303]: Python talker said: Coordinates (x, y):351 313
+^C]0;drew@drew-Nitro-AN515-57: ~/catkin_ws/src/beginner_package/scripts[01;32mdrew@drew-Nitro-AN515-57[00m:[01;34m~/catkin_ws/src/beginner_package/scripts[00m$ gedit tal;[K[Klk.py  [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K 
+]0;drew@drew-Nitro-AN515-57: ~/catkin_ws/src/beginner_package/scripts[01;32mdrew@drew-Nitro-AN515-57[00m:[01;34m~/catkin_ws/src/beginner_package/scripts[00m$ gedit talk.py  [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Crosrun beginner_package listen.py 
+[INFO] [1698947861.963666]: Python talker said: Coordinates (x, y):394 353
+[INFO] [1698947862.452133]: Python talker said: Distance to camera:0.6329113924050633 meters
+[INFO] [1698947862.952393]: Python talker said: Coordinates (x, y):106 255
+[INFO] [1698947863.452140]: Python talker said: Distance to camera:0.423728813559322 meters
+[INFO] [1698947863.952381]: Python talker said: Coordinates (x, y):106 255
+[INFO] [1698947864.452124]: Python talker said: Distance to camera:0.423728813559322 meters
+[INFO] [1698947864.952340]: Python talker said: Coordinates (x, y):106 255
+[INFO] [1698947865.452136]: Python talker said: Distance to camera:0.423728813559322 meters
+[INFO] [1698947865.952365]: Python talker said: Coordinates (x, y):106 255
+[INFO] [1698947866.452173]: Python talker said: Distance to camera:0.423728813559322 meters
+[INFO] [1698947866.963119]: Python talker said: Coordinates (x, y):526 320
+[INFO] [1698947867.452103]: Python talker said: Distance to camera:0.2183406113537118 meters
+[INFO] [1698947867.952317]: Python talker said: Coordinates (x, y):526 320
+[INFO] [1698947868.451989]: Python talker said: Distance to camera:0.2183406113537118 meters
+[INFO] [1698947868.952301]: Python talker said: Coordinates (x, y):526 320
+[INFO] [1698947869.452141]: Python talker said: Distance to camera:0.2183406113537118 meters
+[INFO] [1698947869.952328]: Python talker said: Coordinates (x, y):128 247
+[INFO] [1698947870.452159]: Python talker said: Distance to camera:0.4065040650406504 meters
+[INFO] [1698947870.965765]: Python talker said: Coordinates (x, y):100 254
+[INFO] [1698947871.452146]: Python talker said: Distance to camera:0.4032258064516129 meters
+[INFO] [1698947871.951798]: Python talker said: Coordinates (x, y):100 254
+[INFO] [1698947872.452206]: Python talker said: Distance to camera:0.4032258064516129 meters
+[INFO] [1698947872.952376]: Python talker said: Coordinates (x, y):100 254
+[INFO] [1698947873.452153]: Python talker said: Distance to camera:0.4032258064516129 meters
+[INFO] [1698947873.964822]: Python talker said: Coordinates (x, y):350 328
+[INFO] [1698947874.452075]: Python talker said: Distance to camera:0.5102040816326531 meters
+[INFO] [1698947874.951767]: Python talker said: Coordinates (x, y):307 196
+[INFO] [1698947875.452135]: Python talker said: Distance to camera:0.3875968992248062 meters
+[INFO] [1698947875.952370]: Python talker said: Coordinates (x, y):532 251
+[INFO] [1698947876.452132]: Python talker said: Distance to camera:0.47619047619047616 meters
+[INFO] [1698947877.383863]: Python talker said: Coordinates (x, y):410 277
+[INFO] [1698947877.451557]: Python talker said: Distance to camera:0.423728813559322 meters
+[INFO] [1698947877.951664]: Python talker said: Coordinates (x, y):410 277
+[INFO] [1698947878.452305]: Python talker said: Distance to camera:0.423728813559322 meters
+[INFO] [1698947878.952463]: Python talker said: Coordinates (x, y):410 277
+[INFO] [1698947879.452349]: Python talker said: Distance to camera:0.423728813559322 meters
+^C]0;drew@drew-Nitro-AN515-57: ~/catkin_ws/src/beginner_package/scripts[01;32mdrew@drew-Nitro-AN515-57[00m:[01;34m~/catkin_ws/src/beginner_package/scripts[00m$ [K]0;drew@drew-Nitro-AN515-57: ~/catkin_ws/src/beginner_package/scripts[01;32mdrew@drew-Nitro-AN515-57[00m:[01;34m~/catkin_ws/src/beginner_package/scripts[00m$ [K]0;drew@drew-Nitro-AN515-57: ~/catkin_ws/src/beginner_package/scripts[01;32mdrew@drew-Nitro-AN515-57[00m:[01;34m~/catkin_ws/src/beginner_package/scripts[00m$ [K]0;drew@drew-Nitro-AN515-57: ~/catkin_ws/src/beginner_package/scripts[01;32mdrew@drew-Nitro-AN515-57[00m:[01;34m~/catkin_ws/src/beginner_package/scripts[00m$ [K]0;drew@drew-Nitro-AN515-57: ~/catkin_ws/src/beginner_package/scripts[01;32mdrew@drew-Nitro-AN515-57[00m:[01;34m~/catkin_ws/src/beginner_package/scripts[00m$ [K]0;drew@drew-Nitro-AN515-57: ~/catkin_ws/src/beginner_package/scripts[01;32mdrew@drew-Nitro-AN515-57[00m:[01;34m~/catkin_ws/src/beginner_package/scripts[00m$ [K]0;drew@drew-Nitro-AN515-57: ~/catkin_ws/src/beginner_package/scripts[01;32mdrew@drew-Nitro-AN515-57[00m:[01;34m~/catkin_ws/src/beginner_package/scripts[00m$ [K]0;drew@drew-Nitro-AN515-57: ~/catkin_ws/src/beginner_package/scripts[01;32mdrew@drew-Nitro-AN515-57[00m:[01;34m~/catkin_ws/src/beginner_package/scripts[00m$ [K]0;drew@drew-Nitro-AN515-57: ~/catkin_ws/src/beginner_package/scripts[01;32mdrew@drew-Nitro-AN515-57[00m:[01;34m~/catkin_ws/src/beginner_package/scripts[00m$ [K]0;drew@drew-Nitro-AN515-57: ~/catkin_ws/src/beginner_package/scripts[01;32mdrew@drew-Nitro-AN515-57[00m:[01;34m~/catkin_ws/src/beginner_package/scripts[00m$ [K]0;drew@drew-Nitro-AN515-57: ~/catkin_ws/src/beginner_package/scripts[01;32mdrew@drew-Nitro-AN515-57[00m:[01;34m~/catkin_ws/src/beginner_package/scripts[00m$ [K]0;drew@drew-Nitro-AN515-57: ~/catkin_ws/src/beginner_package/scripts[01;32mdrew@drew-Nitro-AN515-57[00m:[01;34m~/catkin_ws/src/beginner_package/scripts[00m$ [K]0;drew@drew-Nitro-AN515-57: ~/catkin_ws/src/beginner_package/scripts[01;32mdrew@drew-Nitro-AN515-57[00m:[01;34m~/catkin_ws/src/beginner_package/scripts[00m$ [K]0;drew@drew-Nitro-AN515-57: ~/catkin_ws/src/beginner_package/scripts[01;32mdrew@drew-Nitro-AN515-57[00m:[01;34m~/catkin_ws/src/beginner_package/scripts[00m$ [K]0;drew@drew-Nitro-AN515-57: ~/catkin_ws/src/beginner_package/scripts[01;32mdrew@drew-Nitro-AN515-57[00m:[01;34m~/catkin_ws/src/beginner_package/scripts[00m$ [K]0;drew@drew-Nitro-AN515-57: ~/catkin_ws/src/beginner_package/scripts[01;32mdrew@drew-Nitro-AN515-57[00m:[01;34m~/catkin_ws/src/beginner_package/scripts[00m$ [K]0;drew@drew-Nitro-AN515-57: ~/catkin_ws/src/beginner_package/scripts[01;32mdrew@drew-Nitro-AN515-57[00m:[01;34m~/catkin_ws/src/beginner_package/scripts[00m$ [K]0;drew@drew-Nitro-AN515-57: ~/catkin_ws/src/beginner_package/scripts[01;32mdrew@drew-Nitro-AN515-57[00m:[01;34m~/catkin_ws/src/beginner_package/scripts[00m$ [K]0;drew@drew-Nitro-AN515-57: ~/catkin_ws/src/beginner_package/scripts[01;32mdrew@drew-Nitro-AN515-57[00m:[01;34m~/catkin_ws/src/beginner_package/scripts[00m$ [K]0;drew@drew-Nitro-AN515-57: ~/catkin_ws/src/beginner_package/scripts[01;32mdrew@drew-Nitro-AN515-57[00m:[01;34m~/catkin_ws/src/beginner_package/scripts[00m$ [K]0;drew@drew-Nitro-AN515-57: ~/catkin_ws/src/beginner_package/scripts[01;32mdrew@drew-Nitro-AN515-57[00m:[01;34m~/catkin_ws/src/beginner_package/scripts[00m$ [K]0;drew@drew-Nitro-AN515-57: ~/catkin_ws/src/beginner_package/scripts[01;32mdrew@drew-Nitro-AN515-57[00m:[01;34m~/catkin_ws/src/beginner_package/scripts[00m$ [K]0;drew@drew-Nitro-AN515-57: ~/catkin_ws/src/beginner_package/scripts[01;32mdrew@drew-Nitro-AN515-57[00m:[01;34m~/catkin_ws/src/beginner_package/scripts[00m$ [K]0;drew@drew-Nitro-AN515-57: ~/catkin_ws/src/beginner_package/scripts[01;32mdrew@drew-Nitro-AN515-57[00m:[01;34m~/catkin_ws/src/beginner_package/scripts[00m$ [K]0;drew@drew-Nitro-AN515-57: ~/catkin_ws/src/beginner_package/scripts[01;32mdrew@drew-Nitro-AN515-57[00m:[01;34m~/catkin_ws/src/beginner_package/scripts[00m$ [K]0;drew@drew-Nitro-AN515-57: ~/catkin_ws/src/beginner_package/scripts[01;32mdrew@drew-Nitro-AN515-57[00m:[01;34m~/catkin_ws/src/beginner_package/scripts[00m$ [K]0;drew@drew-Nitro-AN515-57: ~/catkin_ws/src/beginner_package/scripts[01;32mdrew@drew-Nitro-AN515-57[00m:[01;34m~/catkin_ws/src/beginner_package/scripts[00m$ [K]0;drew@drew-Nitro-AN515-57: ~/catkin_ws/src/beginner_package/scripts[01;32mdrew@drew-Nitro-AN515-57[00m:[01;34m~/catkin_ws/src/beginner_package/scripts[00m$ [K]0;drew@drew-Nitro-AN515-57: ~/catkin_ws/src/beginner_package/scripts[01;32mdrew@drew-Nitro-AN515-57[00m:[01;34m~/catkin_ws/src/beginner_package/scripts[00m$ [K]0;drew@drew-Nitro-AN515-57: ~/catkin_ws/src/beginner_package/scripts[01;32mdrew@drew-Nitro-AN515-57[00m:[01;34m~/catkin_ws/src/beginner_package/scripts[00m$ [K]0;drew@drew-Nitro-AN515-57: ~/catkin_ws/src/beginner_package/scripts[01;32mdrew@drew-Nitro-AN515-57[00m:[01;34m~/catkin_ws/src/beginner_package/scripts[00m$ [K]0;drew@drew-Nitro-AN515-57: ~/catkin_ws/src/beginner_package/scripts[01;32mdrew@drew-Nitro-AN515-57[00m:[01;34m~/catkin_ws/src/beginner_package/scripts[00m$ [K]0;drew@drew-Nitro-AN515-57: ~/catkin_ws/src/beginner_package/scripts[01;32mdrew@drew-Nitro-AN515-57[00m:[01;34m~/catkin_ws/src/beginner_package/scripts[00m$ [K]0;drew@drew-Nitro-AN515-57: ~/catkin_ws/src/beginner_package/scripts[01;32mdrew@drew-Nitro-AN515-57[00m:[01;34m~/catkin_ws/src/beginner_package/scripts[00m$ [K]0;drew@drew-Nitro-AN515-57: ~/catkin_ws/src/beginner_package/scripts[01;32mdrew@drew-Nitro-AN515-57[00m:[01;34m~/catkin_ws/src/beginner_package/scripts[00m$ [K]0;drew@drew-Nitro-AN515-57: ~/catkin_ws/src/beginner_package/scripts[01;32mdrew@drew-Nitro-AN515-57[00m:[01;34m~/catkin_ws/src/beginner_package/scripts[00m$ [K]0;drew@drew-Nitro-AN515-57: ~/catkin_ws/src/beginner_package/scripts[01;32mdrew@drew-Nitro-AN515-57[00m:[01;34m~/catkin_ws/src/beginner_package/scripts[00m$ [K]0;drew@drew-Nitro-AN515-57: ~/catkin_ws/src/beginner_package/scripts[01;32mdrew@drew-Nitro-AN515-57[00m:[01;34m~/catkin_ws/src/beginner_package/scripts[00m$ [K]0;drew@drew-Nitro-AN515-57: ~/catkin_ws/src/beginner_package/scripts[01;32mdrew@drew-Nitro-AN515-57[00m:[01;34m~/catkin_ws/src/beginner_package/scripts[00m$ [K]0;drew@drew-Nitro-AN515-57: ~/catkin_ws/src/beginner_package/scripts[01;32mdrew@drew-Nitro-AN515-57[00m:[01;34m~/catkin_ws/src/beginner_package/scripts[00m$ [K]0;drew@drew-Nitro-AN515-57: ~/catkin_ws/src/beginner_package/scripts[01;32mdrew@drew-Nitro-AN515-57[00m:[01;34m~/catkin_ws/src/beginner_package/scripts[00m$ [K]0;drew@drew-Nitro-AN515-57: ~/catkin_ws/src/beginner_package/scripts[01;32mdrew@drew-Nitro-AN515-57[00m:[01;34m~/catkin_ws/src/beginner_package/scripts[00m$ [K]0;drew@drew-Nitro-AN515-57: ~/catkin_ws/src/beginner_package/scripts[01;32mdrew@drew-Nitro-AN515-57[00m:[01;34m~/catkin_ws/src/beginner_package/scripts[00m$ [K]0;drew@drew-Nitro-AN515-57: ~/catkin_ws/src/beginner_package/scripts[01;32mdrew@drew-Nitro-AN515-57[00m:[01;34m~/catkin_ws/src/beginner_package/scripts[00m$ [K]0;drew@drew-Nitro-AN515-57: ~/catkin_ws/src/beginner_package/scripts[01;32mdrew@drew-Nitro-AN515-57[00m:[01;34m~/catkin_ws/src/beginner_package/scripts[00m$ [K]0;drew@drew-Nitro-AN515-57: ~/catkin_ws/src/beginner_package/scripts[01;32mdrew@drew-Nitro-AN515-57[00m:[01;34m~/catkin_ws/src/beginner_package/scripts[00m$ [K]0;drew@drew-Nitro-AN515-57: ~/catkin_ws/src/beginner_package/scripts[01;32mdrew@drew-Nitro-AN515-57[00m:[01;34m~/catkin_ws/src/beginner_package/scripts[00m$ [K]0;drew@drew-Nitro-AN515-57: ~/catkin_ws/src/beginner_package/scripts[01;32mdrew@drew-Nitro-AN515-57[00m:[01;34m~/catkin_ws/src/beginner_package/scripts[00m$ [K]0;drew@drew-Nitro-AN515-57: ~/catkin_ws/src/beginner_package/scripts[01;32mdrew@drew-Nitro-AN515-57[00m:[01;34m~/catkin_ws/src/beginner_package/scripts[00m$ [K]0;drew@drew-Nitro-AN515-57: ~/catkin_ws/src/beginner_package/scripts[01;32mdrew@drew-Nitro-AN515-57[00m:[01;34m~/catkin_ws/src/beginner_package/scripts[00m$ [K]0;drew@drew-Nitro-AN515-57: ~/catkin_ws/src/beginner_package/scripts[01;32mdrew@drew-Nitro-AN515-57[00m:[01;34m~/catkin_ws/src/beginner_package/scripts[00m$ [K]0;drew@drew-Nitro-AN515-57: ~/catkin_ws/src/beginner_package/scripts[01;32mdrew@drew-Nitro-AN515-57[00m:[01;34m~/catkin_ws/src/beginner_package/scripts[00m$ [K]0;drew@drew-Nitro-AN515-57: ~/catkin_ws/src/beginner_package/scripts[01;32mdrew@drew-Nitro-AN515-57[00m:[01;34m~/catkin_ws/src/beginner_package/scripts[00m$ [K]0;drew@drew-Nitro-AN515-57: ~/catkin_ws/src/beginner_package/scripts[01;32mdrew@drew-Nitro-AN515-57[00m:[01;34m~/catkin_ws/src/beginner_package/scripts[00m$ [K]0;drew@drew-Nitro-AN515-57: ~/catkin_ws/src/beginner_package/scripts[01;32mdrew@drew-Nitro-AN515-57[00m:[01;34m~/catkin_ws/src/beginner_package/scripts[00m$ [K]0;drew@drew-Nitro-AN515-57: ~/catkin_ws/src/beginner_package/scripts[01;32mdrew@drew-Nitro-AN515-57[00m:[01;34m~/catkin_ws/src/beginner_package/scripts[00m$ [K]0;drew@drew-Nitro-AN515-57: ~/catkin_ws/src/beginner_package/scripts[01;32mdrew@drew-Nitro-AN515-57[00m:[01;34m~/catkin_ws/src/beginner_package/scripts[00m$ [K]0;drew@drew-Nitro-AN515-57: ~/catkin_ws/src/beginner_package/scripts[01;32mdrew@drew-Nitro-AN515-57[00m:[01;34m~/catkin_ws/src/beginner_package/scripts[00m$ [K]0;drew@drew-Nitro-AN515-57: ~/catkin_ws/src/beginner_package/scripts[01;32mdrew@drew-Nitro-AN515-57[00m:[01;34m~/catkin_ws/src/beginner_package/scripts[00m$ [K]0;drew@drew-Nitro-AN515-57: ~/catkin_ws/src/beginner_package/scripts[01;32mdrew@drew-Nitro-AN515-57[00m:[01;34m~/catkin_ws/src/beginner_package/scripts[00m$ [K]0;drew@drew-Nitro-AN515-57: ~/catkin_ws/src/beginner_package/scripts[01;32mdrew@drew-Nitro-AN515-57[00m:[01;34m~/catkin_ws/src/beginner_package/scripts[00m$ [K]0;drew@drew-Nitro-AN515-57: ~/catkin_ws/src/beginner_package/scripts[01;32mdrew@drew-Nitro-AN515-57[00m:[01;34m~/catkin_ws/src/beginner_package/scripts[00m$ [K]0;drew@drew-Nitro-AN515-57: ~/catkin_ws/src/beginner_package/scripts[01;32mdrew@drew-Nitro-AN515-57[00m:[01;34m~/catkin_ws/src/beginner_package/scripts[00m$ [K]0;drew@drew-Nitro-AN515-57: ~/catkin_ws/src/beginner_package/scripts[01;32mdrew@drew-Nitro-AN515-57[00m:[01;34m~/catkin_ws/src/beginner_package/scripts[00m$ [K]0;drew@drew-Nitro-AN515-57: ~/catkin_ws/src/beginner_package/scripts[01;32mdrew@drew-Nitro-AN515-57[00m:[01;34m~/catkin_ws/src/beginner_package/scripts[00m$ [K]0;drew@drew-Nitro-AN515-57: ~/catkin_ws/src/beginner_package/scripts[01;32mdrew@drew-Nitro-AN515-57[00m:[01;34m~/catkin_ws/src/beginner_package/scripts[00m$ [K]0;drew@drew-Nitro-AN515-57: ~/catkin_ws/src/beginner_package/scripts[01;32mdrew@drew-Nitro-AN515-57[00m:[01;34m~/catkin_ws/src/beginner_package/scripts[00m$ [K]0;drew@drew-Nitro-AN515-57: ~/catkin_ws/src/beginner_package/scripts[01;32mdrew@drew-Nitro-AN515-57[00m:[01;34m~/catkin_ws/src/beginner_package/scripts[00m$ [K]0;drew@drew-Nitro-AN515-57: ~/catkin_ws/src/beginner_package/scripts[01;32mdrew@drew-Nitro-AN515-57[00m:[01;34m~/catkin_ws/src/beginner_package/scripts[00m$ [K]0;drew@drew-Nitro-AN515-57: ~/catkin_ws/src/beginner_package/scripts[01;32mdrew@drew-Nitro-AN515-57[00m:[01;34m~/catkin_ws/src/beginner_package/scripts[00m$ [K]0;drew@drew-Nitro-AN515-57: ~/catkin_ws/src/beginner_package/scripts

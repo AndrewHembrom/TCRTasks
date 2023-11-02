@@ -1,0 +1,1 @@
+/home/drew/catkin_ws/devel/.private/beginner_package/share/beginner_package/cmake/beginner_packageConfig-version.cmake

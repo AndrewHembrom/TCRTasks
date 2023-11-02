@@ -1,0 +1,5 @@
+Linked: (/home/drew/catkin_ws/devel/.private/beginner_package/lib/pkgconfig/beginner_package.pc, /home/drew/catkin_ws/devel/lib/pkgconfig/beginner_package.pc)
+Symlinking /home/drew/catkin_ws/devel/lib/beginner_package/cmake.lock
+Symlinking /home/drew/catkin_ws/devel/lib/beginner_package/talk.py
+Linked: (/home/drew/catkin_ws/devel/.private/beginner_package/share/beginner_package/cmake/beginner_packageConfig-version.cmake, /home/drew/catkin_ws/devel/share/beginner_package/cmake/beginner_packageConfig-version.cmake)
+Linked: (/home/drew/catkin_ws/devel/.private/beginner_package/share/beginner_package/cmake/beginner_packageConfig.cmake, /home/drew/catkin_ws/devel/share/beginner_package/cmake/beginner_packageConfig.cmake)

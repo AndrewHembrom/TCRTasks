@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/drew/catkin_ws/devel/.private/beginner_package/setup.sh

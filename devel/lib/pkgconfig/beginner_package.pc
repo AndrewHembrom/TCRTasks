@@ -1,0 +1,1 @@
+/home/drew/catkin_ws/devel/.private/beginner_package/lib/pkgconfig/beginner_package.pc

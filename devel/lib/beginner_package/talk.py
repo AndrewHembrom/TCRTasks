@@ -1,0 +1,1 @@
+/home/drew/catkin_ws/devel/.private/beginner_package/lib/beginner_package/talk.py
